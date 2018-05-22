@@ -183,3 +183,6 @@ fabric.properties
 
 # Yarn
 yarn.lock
+
+# npm
+package-lock.json
