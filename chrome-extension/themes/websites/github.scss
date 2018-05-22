@@ -59,24 +59,24 @@ a {
 // Toolbar
 //----------------------------------------------------------------------------------------------------------------------------------------------------
 //top toolbar
-.header,
-.header > div {
+.Header,
+.Header > div {
     background-color: $theme-background-toolbar !important;
     border-color: $theme-border !important;
     color: $theme-text !important;
 }
 
 // "This repository"
-.header .header-search-scope {
+.Header .header-search-scope {
 	color: rgba(0,0,0,0.7) !important;
 	border-right-color: #ddd !important;
 }
 
 // Search bar
-.header input[type="text"].header-search-input {
+.Header input[type="text"].header-search-input {
 	background: #cbc9c8 !important;
 }
-.header input[type="text"].header-search-input::-webkit-input-placeholder {
+.Header input[type="text"].header-search-input::-webkit-input-placeholder {
 	color: #444 !important;
 	
 }
